@@ -4,13 +4,13 @@ This repo contains medium-hard deep learning projects done in matlab. This proje
 All projects contain a report which explain both the theoritcal results beside the experimental results acquired in the matlab code. 
 
 ## Fully connected networks
-- Implements 4 netowrks of different complexity from **scratch**
+- Implements 4 netowrks of different complexity from **scratch** using standard data structures and operations in matlab e.g cell arrays, matrix multiplication etc..
 - Analyzes the training progress for the different networks 
 
 ## Vanishing gradient 
-- Implements a 'deep' network **from scratch**
+- Implements a 'deep' network **from scratch** 
 - Analyzes the learning speed for each layer
-	- Deeper networks have an where the gradient is vanishing causing the earlier layers to have a slow learning rate. This is more commonly known as vanishing gradient
+	- Deeper networks have an issue where the gradient is vanishing for the earlier layers causing a slow learning rate for earlier layers. This is more commonly known as vanishing gradient
 
 ## Regularization and early stopping
 - Uses deep learning toolbox to implement the networks
@@ -19,4 +19,4 @@ All projects contain a report which explain both the theoritcal results beside t
 ## Convolutional neural networks
 - Uses deep learning toolbox to implement the networks
 - How does depth and complexity affect performance 
-	- amount of *feature maps*
+	- Complexity as in the amount of *features maps* in each convolutional layer
